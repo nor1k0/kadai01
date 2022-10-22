@@ -1,0 +1,298 @@
+@charset "utf-8";
+
+html{
+    width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a { 
+    text-decoration:none;
+    color: inherit;
+}
+
+p{
+    line-height: 1.7;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between
+}
+
+.logo{
+    width: ;
+    margin: 20px 50px 20px 20px;
+}
+
+.menu-group{
+    font-size: 21px;
+    display: flex;
+}
+
+li{
+    margin: 40px 30px 40px 40px;
+    cursor: pointer;
+}
+
+.mainbg{
+    position: relative;
+}
+
+.kv{
+    width: 100%;
+}
+
+.mainbg-word{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate3d(-50%,-50%,0);
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.mainbg-word1{
+    font-weight: bold;
+}
+
+h3{
+    font-size: 24px;
+    font-weight: bold;
+    margin: 60px 0px 30px 0px;
+}
+
+h4{
+    font-size: 18px;
+    margin: 0px 0px 60px 0px;
+    color: #222222;
+}
+
+.about1{
+    color: #ffd61a;
+}
+
+.about2{
+    color: #222222;
+    font-size: 16px;
+    margin: 0px 0px 40px 0px;
+    line-height: 1.7;
+}
+
+.about-img{
+    display: flex;
+    width: 100%;
+}
+
+.course0{
+    color: #222222;
+    font-size: 16px;
+    margin: 0px 0px 60px 0px;
+    line-height: 1.7;
+}
+
+.course1{
+    text-align: left;
+    display: flex;
+    background-color:#fafafa ;
+}
+
+.course-img{
+    width: 50%;
+}
+
+h5{
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0px 0px 40px 0px;
+    text-align: left;
+}
+
+.course1-1{
+    width: 50%;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 50px;
+}
+
+.course1-2{
+    width: 480px;
+    line-height: 1.7;
+    text-align: left;
+}
+
+.course2{
+    flex-direction: row-reverse;
+    display: flex;
+    background-color:#fafafa ;
+    text-align: end;
+
+}
+
+.course2-1{
+    float: left;
+    margin-right: 50px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.course3{
+    text-align: left;
+    display: flex;
+    background-color:#fafafa ;
+}
+
+.news-title{
+    color: #ffd61a;
+}
+
+.news0{
+    display: flex;
+    justify-content: center;
+}
+
+.pizza{
+    width: 300px;
+    margin: 0px 30px 0px 0px;
+}
+
+.news1:hover{
+    background-color: #EEE;
+    cursor: pointer;
+}
+
+.news2:hover{
+    background-color: #EEE;
+    cursor: pointer;
+}
+
+.news3:hover{
+    background-color: #EEE;
+    cursor: pointer;
+}
+
+h6{
+    margin: 30px 0px 24px 0px;
+    text-align: left;
+}
+
+button{
+    margin: 60px 0px 60px 0px;
+    font-size: 18px;
+    color: white;
+    background-color: #ffd61a;
+    border: 0px;
+    width: 300px;
+    height: 60px;
+}
+
+button:hover{
+    background-color: #EEE;
+    cursor: pointer;  
+}
+
+.access{
+    background-color: #fafafa;
+}
+
+.access1{
+    background-color: #fafafa;
+    padding-top: 60px;
+}
+
+iframe{
+    width: 100%;
+    margin: 0px 0px 60px 0px;
+}
+
+.gaiyou{
+    padding: 0px 0px 60px 0px;
+    display: flex;
+    justify-content: center;
+    text-align: left;
+}
+
+.gaiyou_title{
+    margin: 0px 0px 30px 0px;
+}
+
+.gaiyou_nakami{
+    margin: 0px 0px 30px 50px;
+}
+
+.contact0{
+    margin: 30px 0px 70px 0px;
+    line-height: 1.7;
+}
+
+.form-text{
+    margin: 8px 0px 8px 8px;
+    width: 328px;
+    height: 36px;
+}
+
+ .contact-table{
+    border-bottom: 1px solid #bfbfbf;
+    border-top: 1px solid #bfbfbf;
+    margin: auto;
+}
+
+.contact-item {
+    border-top: 1px solid #bfbfbf;
+    border-right: 1px solid #bfbfbf;
+    width: 160px;
+    text-align: left;
+    padding: 10px 64px 0px 16px;
+    line-height: 1.7;
+    vertical-align: top;
+  }  
+
+.contact-body {
+border-bottom: 1px solid #bfbfbf;
+width: 500px;
+text-align: left;
+}
+
+.reason_list{
+    display: inline-flex;
+    flex-direction: column-reverse;
+    align-items: baseline;
+    margin: 8px 0px 8px 8px;
+}
+
+.reason_list label {
+    padding: 0px 0px 24px 0px;
+}
+
+.send{
+    margin: 30px 0px 0px 0px;
+    font-size: 18px;
+    color: white;
+    background-color: #ffd61a;
+    border: 0px;
+    width: 300px;
+    height: 60px; 
+    margin: 30px 0px 140px 0px;
+}
+
+.send:hover{
+    background-color: #EEE;
+    cursor: pointer;  
+}
+
+.page_top:before{
+    font-family: "Font Awesome 5 Free";
+    content: '\f062';
+    font-weight: 900;
+    font-size: 2em;
+    
+}
+
+footer{
+    background-color: #707070;
+    color: #fafafa;
+    padding: 30px 0px 30px 0px;
+}
